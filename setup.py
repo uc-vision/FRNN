@@ -73,7 +73,7 @@ setup(
     name="frnn",
     author="Lixin Xue, Yifan Wang",
     description="Fixed radius nearest neighbor search on gpu",
-    version="0.1.0",
+    version="0.2.0",
     packages=find_packages(exclude=("tests")),
     ext_modules=get_extensions(),
     cmdclass={"build_ext": BuildExtension},
